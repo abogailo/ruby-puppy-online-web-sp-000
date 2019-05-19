@@ -8,9 +8,9 @@ class Dog
     @name = name
     @@all << self
   end
-  
+
   def clear_all
     @@all = []
   end
- 
+
 end
